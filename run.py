@@ -10,6 +10,7 @@ import subprocess
 import sys
 import time
 from datetime import datetime
+from pathlib import Path
 
 import torch
 from math_verify import parse, verify
@@ -406,6 +407,8 @@ def main():
     parser.add_argument("--batch-size", type=int, default=32)
     parser.add_argument("--max-new-tokens", type=int, default=4096)
     parser.add_argument("--category", choices=CATEGORIES)
+    parser.add_argument("--prompts", type=Path, default=ROOT / "data" / "pilot.json",
+                        help="JSON file containing prompt rows (default: data/pilot.json)")
     parser.add_argument("--smoke", action="store_true")
     args = parser.parse_args()
     if not re.fullmatch(r"[a-zA-Z0-9][a-zA-Z0-9-]{0,63}", args.run_id):
@@ -414,7 +417,7 @@ def main():
         parser.error("Use a batch size from 1 to 32 and a positive token cap")
     if not torch.cuda.is_available() or not torch.cuda.is_bf16_supported(including_emulation=False):
         raise RuntimeError("This runner requires CUDA with hardware BF16 support")
-    data_path = ROOT / "data" / "pilot.json"
+    data_path = args.prompts
     rows = load_json(data_path)["rows"]
     if args.category is not None:
         rows = [row for row in rows if row["category"] == args.category]
