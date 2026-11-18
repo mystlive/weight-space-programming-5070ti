@@ -1,0 +1,10 @@
+/.venv/
+/cache/
+/models/base/
+/models/p50c/
+/runs/repro-*/
+__pycache__/
+*.py[cod]
+*.log
+*.lock
+*.tmp

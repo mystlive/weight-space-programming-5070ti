@@ -1,0 +1,151 @@
+{
+  "finished_at": "2026-11-17T22:14:28.356409+09:00",
+  "conditions": {
+    "base-on": {
+      "n": 4,
+      "correct": 1,
+      "length_stops": 3,
+      "eos_stops": 1,
+      "unclosed_thinking": 3,
+      "high_repetition": 3,
+      "mean_tail_duplicate_8gram_rate": 0.6606425702811245,
+      "total_output_tokens": 103962,
+      "median_output_tokens": 32768.0,
+      "median_latency_s": 2071.104875,
+      "generation_wall_s": 2071.071250099998,
+      "peak_allocated_mib": 5061.98388671875,
+      "peak_reserved_mib": 5494.0,
+      "categories": {
+        "math": {
+          "n": 4,
+          "correct": 1,
+          "length_stops": 3,
+          "eos_stops": 1,
+          "unclosed_thinking": 3,
+          "high_repetition": 3,
+          "mean_tail_duplicate_8gram_rate": 0.6606425702811245,
+          "total_output_tokens": 103962,
+          "median_output_tokens": 32768.0,
+          "median_latency_s": 2071.104875
+        }
+      }
+    },
+    "base-off": {
+      "n": 4,
+      "correct": 2,
+      "length_stops": 0,
+      "eos_stops": 4,
+      "unclosed_thinking": 0,
+      "high_repetition": 0,
+      "mean_tail_duplicate_8gram_rate": 0.06827309236947793,
+      "total_output_tokens": 11940,
+      "median_output_tokens": 1147.5,
+      "median_latency_s": 68.3308515625,
+      "generation_wall_s": 537.5135358999978,
+      "peak_allocated_mib": 5081.48388671875,
+      "peak_reserved_mib": 5494.0,
+      "categories": {
+        "math": {
+          "n": 4,
+          "correct": 2,
+          "length_stops": 0,
+          "eos_stops": 4,
+          "unclosed_thinking": 0,
+          "high_repetition": 0,
+          "mean_tail_duplicate_8gram_rate": 0.06827309236947793,
+          "total_output_tokens": 11940,
+          "median_output_tokens": 1147.5,
+          "median_latency_s": 68.3308515625
+        }
+      }
+    },
+    "p50c-on": {
+      "n": 4,
+      "correct": 2,
+      "length_stops": 2,
+      "eos_stops": 2,
+      "unclosed_thinking": 0,
+      "high_repetition": 0,
+      "mean_tail_duplicate_8gram_rate": 0.11345381526104417,
+      "total_output_tokens": 102160,
+      "median_output_tokens": 30041.5,
+      "median_latency_s": 1881.8454375000001,
+      "generation_wall_s": 2061.1060832000003,
+      "peak_allocated_mib": 5061.98388671875,
+      "peak_reserved_mib": 5494.0,
+      "categories": {
+        "math": {
+          "n": 4,
+          "correct": 2,
+          "length_stops": 2,
+          "eos_stops": 2,
+          "unclosed_thinking": 0,
+          "high_repetition": 0,
+          "mean_tail_duplicate_8gram_rate": 0.11345381526104417,
+          "total_output_tokens": 102160,
+          "median_output_tokens": 30041.5,
+          "median_latency_s": 1881.8454375000001
+        }
+      }
+    },
+    "p50c-off": {
+      "n": 4,
+      "correct": 1,
+      "length_stops": 0,
+      "eos_stops": 4,
+      "unclosed_thinking": 0,
+      "high_repetition": 0,
+      "mean_tail_duplicate_8gram_rate": 0.0642570281124498,
+      "total_output_tokens": 33410,
+      "median_output_tokens": 8676.5,
+      "median_latency_s": 556.74309375,
+      "generation_wall_s": 974.8112390000024,
+      "peak_allocated_mib": 5081.48388671875,
+      "peak_reserved_mib": 5494.0,
+      "categories": {
+        "math": {
+          "n": 4,
+          "correct": 1,
+          "length_stops": 0,
+          "eos_stops": 4,
+          "unclosed_thinking": 0,
+          "high_repetition": 0,
+          "mean_tail_duplicate_8gram_rate": 0.0642570281124498,
+          "total_output_tokens": 33410,
+          "median_output_tokens": 8676.5,
+          "median_latency_s": 556.74309375
+        }
+      }
+    }
+  },
+  "weight_change_thinking_on": {
+    "improved_ids": [
+      "test/prealgebra/2057.json",
+      "test/algebra/2193.json"
+    ],
+    "regressed_ids": [
+      "test/precalculus/477.json"
+    ]
+  },
+  "weight_change_thinking_off": {
+    "improved_ids": [],
+    "regressed_ids": [
+      "test/prealgebra/2057.json"
+    ]
+  },
+  "turn_thinking_off_base": {
+    "improved_ids": [
+      "test/prealgebra/2057.json",
+      "test/algebra/2193.json"
+    ],
+    "regressed_ids": [
+      "test/precalculus/477.json"
+    ]
+  },
+  "turn_thinking_off_p50c": {
+    "improved_ids": [],
+    "regressed_ids": [
+      "test/prealgebra/2057.json"
+    ]
+  }
+}

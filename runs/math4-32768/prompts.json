@@ -1,0 +1,72 @@
+{
+  "math_dataset": {
+    "repository": "HuggingFaceH4/MATH-500",
+    "revision": "6e4ed1a2a79af7d8630a6b768ec859cb5af4d3be",
+    "file_sha256": "35dc41080a3680858b27fa7e0533d2d547825316fc5dafe5d316f4ccc5a06132",
+    "split": "test"
+  },
+  "selection": "Python Random(0), sample from IDs sorted within each difficulty after excluding trial IDs",
+  "selection_seed": 0,
+  "difficulty_counts": [
+    [
+      3,
+      2
+    ],
+    [
+      4,
+      1
+    ],
+    [
+      5,
+      1
+    ]
+  ],
+  "excluded_math_ids": [
+    "test/intermediate_algebra/1714.json",
+    "test/intermediate_algebra/431.json",
+    "test/algebra/1214.json",
+    "test/algebra/988.json",
+    "test/prealgebra/1622.json",
+    "test/prealgebra/1252.json",
+    "test/number_theory/46.json",
+    "test/intermediate_algebra/128.json"
+  ],
+  "rows": [
+    {
+      "id": "test/intermediate_algebra/1566.json",
+      "category": "math",
+      "rubric": "math_box",
+      "problem": "The parabola with equation $y=ax^2+bx+c$ and vertex $(h,k)$ is reflected about the line $y=k$. This results in the parabola with equation $y=dx^2+ex+f$.  Express $a+b+c+d+e+f$ in terms of $k.$\nPlease reason step by step, and put your final answer within \\boxed{}.",
+      "gold": "2k",
+      "level": 3,
+      "subject": "Intermediate Algebra"
+    },
+    {
+      "id": "test/precalculus/477.json",
+      "category": "math",
+      "rubric": "math_box",
+      "problem": "The points $O,$ $A,$ and $B$ satisfy $\\overrightarrow{OA} = \\begin{pmatrix} 1 \\\\ 2 \\\\ 3 \\end{pmatrix}$ and $\\overrightarrow{OB} = \\begin{pmatrix} -3 \\\\ -2 \\\\ 1 \\end{pmatrix}.$  Find the area of triangle $OAB.$\nPlease reason step by step, and put your final answer within \\boxed{}.",
+      "gold": "3 \\sqrt{5}",
+      "level": 3,
+      "subject": "Precalculus"
+    },
+    {
+      "id": "test/prealgebra/2057.json",
+      "category": "math",
+      "rubric": "math_box",
+      "problem": "Yann and Camille go to a restaurant.  If there are 10 items on the menu, and each orders one dish, how many different combinations of meals can Yann and Camille order if they refuse to order the same dish? (It does matter who orders what---Yann ordering chicken and Camille ordering fish is different from Yann ordering fish and Camille ordering chicken.)\nPlease reason step by step, and put your final answer within \\boxed{}.",
+      "gold": "90",
+      "level": 4,
+      "subject": "Prealgebra"
+    },
+    {
+      "id": "test/algebra/2193.json",
+      "category": "math",
+      "rubric": "math_box",
+      "problem": "Find all values of $x$ that satisfy the equation $x = \\!\\sqrt{11-2x} + 4$.\nPlease reason step by step, and put your final answer within \\boxed{}.",
+      "gold": "x=5",
+      "level": 5,
+      "subject": "Algebra"
+    }
+  ]
+}

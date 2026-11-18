@@ -1,0 +1,341 @@
+{
+  "finished_at": "2026-11-17T16:46:15.346094+09:00",
+  "conditions": {
+    "base-on": {
+      "n": 32,
+      "correct": 8,
+      "length_stops": 24,
+      "eos_stops": 8,
+      "unclosed_thinking": 24,
+      "high_repetition": 7,
+      "mean_tail_duplicate_8gram_rate": 0.2377008032128514,
+      "total_output_tokens": 112447,
+      "median_output_tokens": 4096.0,
+      "median_latency_s": 259.750328125,
+      "generation_wall_s": 259.7464050999997,
+      "peak_allocated_mib": 5680.7822265625,
+      "peak_reserved_mib": 6832.0,
+      "categories": {
+        "math": {
+          "n": 8,
+          "correct": 1,
+          "length_stops": 7,
+          "eos_stops": 1,
+          "unclosed_thinking": 7,
+          "high_repetition": 1,
+          "mean_tail_duplicate_8gram_rate": 0.16616465863453816,
+          "total_output_tokens": 32127,
+          "median_output_tokens": 4096.0,
+          "median_latency_s": 259.750328125
+        },
+        "japanese": {
+          "n": 8,
+          "correct": 2,
+          "length_stops": 6,
+          "eos_stops": 2,
+          "unclosed_thinking": 6,
+          "high_repetition": 4,
+          "mean_tail_duplicate_8gram_rate": 0.4608433734939759,
+          "total_output_tokens": 27746,
+          "median_output_tokens": 4096.0,
+          "median_latency_s": 259.750328125
+        },
+        "instructions": {
+          "n": 8,
+          "correct": 5,
+          "length_stops": 3,
+          "eos_stops": 5,
+          "unclosed_thinking": 3,
+          "high_repetition": 2,
+          "mean_tail_duplicate_8gram_rate": 0.2535140562248996,
+          "total_output_tokens": 19806,
+          "median_output_tokens": 2504.5,
+          "median_latency_s": 162.28564062499998
+        },
+        "loop": {
+          "n": 8,
+          "correct": 0,
+          "length_stops": 8,
+          "eos_stops": 0,
+          "unclosed_thinking": 8,
+          "high_repetition": 0,
+          "mean_tail_duplicate_8gram_rate": 0.07028112449799194,
+          "total_output_tokens": 32768,
+          "median_output_tokens": 4096.0,
+          "median_latency_s": 259.750328125
+        }
+      }
+    },
+    "base-off": {
+      "n": 32,
+      "correct": 17,
+      "length_stops": 1,
+      "eos_stops": 31,
+      "unclosed_thinking": 0,
+      "high_repetition": 0,
+      "mean_tail_duplicate_8gram_rate": 0.016208584337349403,
+      "total_output_tokens": 17581,
+      "median_output_tokens": 100.5,
+      "median_latency_s": 7.0286809387207025,
+      "generation_wall_s": 260.75908320000053,
+      "peak_allocated_mib": 5680.7822265625,
+      "peak_reserved_mib": 6832.0,
+      "categories": {
+        "math": {
+          "n": 8,
+          "correct": 6,
+          "length_stops": 0,
+          "eos_stops": 8,
+          "unclosed_thinking": 0,
+          "high_repetition": 0,
+          "mean_tail_duplicate_8gram_rate": 0.02417168674698797,
+          "total_output_tokens": 6943,
+          "median_output_tokens": 528.0,
+          "median_latency_s": 34.417037109375
+        },
+        "japanese": {
+          "n": 8,
+          "correct": 0,
+          "length_stops": 0,
+          "eos_stops": 8,
+          "unclosed_thinking": 0,
+          "high_repetition": 0,
+          "mean_tail_duplicate_8gram_rate": 0.0,
+          "total_output_tokens": 50,
+          "median_output_tokens": 3.0,
+          "median_latency_s": 0.3167429504394531
+        },
+        "instructions": {
+          "n": 8,
+          "correct": 5,
+          "length_stops": 0,
+          "eos_stops": 8,
+          "unclosed_thinking": 0,
+          "high_repetition": 0,
+          "mean_tail_duplicate_8gram_rate": 0.0,
+          "total_output_tokens": 44,
+          "median_output_tokens": 5.0,
+          "median_latency_s": 0.4373531799316406
+        },
+        "loop": {
+          "n": 8,
+          "correct": 6,
+          "length_stops": 1,
+          "eos_stops": 7,
+          "unclosed_thinking": 0,
+          "high_repetition": 0,
+          "mean_tail_duplicate_8gram_rate": 0.040662650602409645,
+          "total_output_tokens": 10544,
+          "median_output_tokens": 794.5,
+          "median_latency_s": 51.383439453125
+        }
+      }
+    },
+    "p50c-on": {
+      "n": 32,
+      "correct": 13,
+      "length_stops": 16,
+      "eos_stops": 16,
+      "unclosed_thinking": 16,
+      "high_repetition": 0,
+      "mean_tail_duplicate_8gram_rate": 0.05145582329317269,
+      "total_output_tokens": 96701,
+      "median_output_tokens": 4084.5,
+      "median_latency_s": 253.80598437499998,
+      "generation_wall_s": 254.53859849999935,
+      "peak_allocated_mib": 5680.7822265625,
+      "peak_reserved_mib": 6832.0,
+      "categories": {
+        "math": {
+          "n": 8,
+          "correct": 0,
+          "length_stops": 8,
+          "eos_stops": 0,
+          "unclosed_thinking": 8,
+          "high_repetition": 0,
+          "mean_tail_duplicate_8gram_rate": 0.11295180722891567,
+          "total_output_tokens": 32768,
+          "median_output_tokens": 4096.0,
+          "median_latency_s": 254.542625
+        },
+        "japanese": {
+          "n": 8,
+          "correct": 4,
+          "length_stops": 1,
+          "eos_stops": 7,
+          "unclosed_thinking": 1,
+          "high_repetition": 0,
+          "mean_tail_duplicate_8gram_rate": 0.034136546184738964,
+          "total_output_tokens": 21268,
+          "median_output_tokens": 2344.0,
+          "median_latency_s": 146.20469140625
+        },
+        "instructions": {
+          "n": 8,
+          "correct": 8,
+          "length_stops": 0,
+          "eos_stops": 8,
+          "unclosed_thinking": 0,
+          "high_repetition": 0,
+          "mean_tail_duplicate_8gram_rate": 0.013554216867469882,
+          "total_output_tokens": 10334,
+          "median_output_tokens": 1497.0,
+          "median_latency_s": 93.32095703125
+        },
+        "loop": {
+          "n": 8,
+          "correct": 1,
+          "length_stops": 7,
+          "eos_stops": 1,
+          "unclosed_thinking": 7,
+          "high_repetition": 0,
+          "mean_tail_duplicate_8gram_rate": 0.04518072289156627,
+          "total_output_tokens": 32331,
+          "median_output_tokens": 4096.0,
+          "median_latency_s": 254.542625
+        }
+      }
+    },
+    "p50c-off": {
+      "n": 32,
+      "correct": 20,
+      "length_stops": 1,
+      "eos_stops": 31,
+      "unclosed_thinking": 0,
+      "high_repetition": 0,
+      "mean_tail_duplicate_8gram_rate": 0.012299196787148595,
+      "total_output_tokens": 17126,
+      "median_output_tokens": 138.0,
+      "median_latency_s": 9.890094909667969,
+      "generation_wall_s": 269.8773394000018,
+      "peak_allocated_mib": 5680.7822265625,
+      "peak_reserved_mib": 6832.0,
+      "categories": {
+        "math": {
+          "n": 8,
+          "correct": 6,
+          "length_stops": 1,
+          "eos_stops": 7,
+          "unclosed_thinking": 0,
+          "high_repetition": 0,
+          "mean_tail_duplicate_8gram_rate": 0.020582329317269082,
+          "total_output_tokens": 9389,
+          "median_output_tokens": 447.0,
+          "median_latency_s": 30.6766064453125
+        },
+        "japanese": {
+          "n": 8,
+          "correct": 1,
+          "length_stops": 0,
+          "eos_stops": 8,
+          "unclosed_thinking": 0,
+          "high_repetition": 0,
+          "mean_tail_duplicate_8gram_rate": 0.0,
+          "total_output_tokens": 50,
+          "median_output_tokens": 3.0,
+          "median_latency_s": 0.3272509460449219
+        },
+        "instructions": {
+          "n": 8,
+          "correct": 5,
+          "length_stops": 0,
+          "eos_stops": 8,
+          "unclosed_thinking": 0,
+          "high_repetition": 0,
+          "mean_tail_duplicate_8gram_rate": 0.0,
+          "total_output_tokens": 44,
+          "median_output_tokens": 5.0,
+          "median_latency_s": 0.4552935180664062
+        },
+        "loop": {
+          "n": 8,
+          "correct": 8,
+          "length_stops": 0,
+          "eos_stops": 8,
+          "unclosed_thinking": 0,
+          "high_repetition": 0,
+          "mean_tail_duplicate_8gram_rate": 0.028614457831325296,
+          "total_output_tokens": 7643,
+          "median_output_tokens": 779.5,
+          "median_latency_s": 52.271865234375
+        }
+      }
+    }
+  },
+  "weight_change_thinking_on": {
+    "improved_ids": [
+      "ja-01",
+      "ja-03",
+      "if-05",
+      "loop-05",
+      "if-06",
+      "ja-07",
+      "if-08"
+    ],
+    "regressed_ids": [
+      "ja-02",
+      "test/algebra/1214.json"
+    ]
+  },
+  "weight_change_thinking_off": {
+    "improved_ids": [
+      "loop-01",
+      "ja-02",
+      "loop-03",
+      "test/number_theory/46.json"
+    ],
+    "regressed_ids": [
+      "test/intermediate_algebra/128.json"
+    ]
+  },
+  "turn_thinking_off_base": {
+    "improved_ids": [
+      "test/intermediate_algebra/1714.json",
+      "test/intermediate_algebra/431.json",
+      "loop-02",
+      "test/algebra/988.json",
+      "loop-04",
+      "test/prealgebra/1622.json",
+      "if-05",
+      "loop-05",
+      "if-06",
+      "loop-06",
+      "loop-07",
+      "test/intermediate_algebra/128.json",
+      "loop-08"
+    ],
+    "regressed_ids": [
+      "ja-02",
+      "if-03",
+      "if-04",
+      "ja-08"
+    ]
+  },
+  "turn_thinking_off_p50c": {
+    "improved_ids": [
+      "test/intermediate_algebra/1714.json",
+      "loop-01",
+      "test/intermediate_algebra/431.json",
+      "ja-02",
+      "loop-02",
+      "test/algebra/1214.json",
+      "loop-03",
+      "test/algebra/988.json",
+      "loop-04",
+      "test/prealgebra/1622.json",
+      "loop-06",
+      "test/number_theory/46.json",
+      "loop-07",
+      "loop-08"
+    ],
+    "regressed_ids": [
+      "ja-01",
+      "ja-03",
+      "if-03",
+      "if-04",
+      "ja-07",
+      "ja-08",
+      "if-08"
+    ]
+  }
+}
